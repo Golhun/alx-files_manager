@@ -1,0 +1,45 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# MongoDB data (if running locally)
+data/
+
+# Redis data (if running locally)
+dump.rdb
+
+# IDE and editor folders
+.vscode/
+.idea/
+
+# npm package lock file (optional, depending on your workflow)
+package-lock.json
+
+# Dependency directory for production
+build/
+
+# Temporary files created by editor
+*.swp
+
+# Coverage directory for test coverage reports
+coverage/
+
+# Build directories (for example, if you are transpiling with Babel)
+dist/
+
+# Miscellaneous
+*.tgz
+
